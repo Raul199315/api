@@ -29,25 +29,25 @@ public class Direccion {
     }
 
     public void actualizarDireccion(DatosDireccion datos) {
-        if (datos.calle() != null){
+        if (datos.calle() != null) {
             this.calle = datos.calle();
         }
-        if (datos.numero() != null){
+        if (datos.numero() != null) {
             this.numero = datos.numero();
         }
-        if (datos.complemento() != null){
+        if (datos.complemento() != null) {
             this.complemento = datos.complemento();
         }
-        if (datos.barrio() != null){
+        if (datos.barrio() != null) {
             this.barrio = datos.barrio();
         }
-        if (datos.ciudad() != null){
+        if (datos.ciudad() != null) {
             this.ciudad = datos.ciudad();
         }
-        if (datos.codigo_postal() != null){
+        if (datos.codigo_postal() != null) {
             this.codigo_postal = datos.codigo_postal();
         }
-        if (datos.estado() != null){
+        if (datos.estado() != null) {
             this.estado = datos.estado();
         }
     }

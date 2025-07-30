@@ -8,6 +8,12 @@ public record DatosListaMedico(
         Especialidad especialidad
 ) {
     public DatosListaMedico(Medico medico) {
-        this(medico.getId(), medico.getNombre(), medico.getEmail(), medico.getDocumento(), medico.getEspecialidad());
+        this(
+                medico.getId(),
+                medico.getNombre(),
+                medico.getEmail(),
+                medico.getDocumento(),
+                medico.getEspecialidad()
+        );
     }
 }
